@@ -1,0 +1,73 @@
+
+"prec_next_demoname" = ""
+ - Set name of next demo
+
+"prec_notify" = "1"
+ archive
+ - Notify when started/stoped recording and setting bookmarks
+0 - show message in console
+1 - displays message in team chat
+2 - displays message in hud
+
+"prec_mode" = "3" ( def. "2" )
+ archive
+ - 0-turn off addon.
+   1-record only curstomnamed demos.
+   2-record all demos (on servers with mp_tournament 1).
+   3-record all demos
+
+"prec_min_streak" = "4" min. 2.000000
+ archive
+ - Minimum kill streak to log
+
+"prec_kill_delay" = "15.0" min. 5.000000
+ archive
+ - Max delay between kill's in KillStreaks
+
+"prec_dir" = ""
+ archive
+ - Directory to save demos
+
+"prec_sound" = "1"
+ archive
+ - Play sound when start/stop recording (1 - on ,0 - off)
+
+"prec_screens" = "0"
+ archive
+ - Make screenshoots of score and status
+
+"prec_log" = "1"
+ archive
+ - 0-Don't log.
+   1-log into killstreaks.txt
+   2-log separately for each demo.
+   3-log separately for each map.
+
+"prec_delete_useless_demo" = "1" ( def. "0" ) min. 0.000000 max. 1.000000
+ archive
+ - Delete demo files without bookmarks and killstreaks
+
+"prec_stv_status" = "1" min. 0.000000 max. 1.000000
+ archive
+ - Show SourceTV statistic after the match
+
+"prec_tag" = ""
+ archive
+ - tag for demo
+
+"prec_check_update" = "1"
+ archive
+ - Check for updates on startup
+
+"prec_about"
+ - About plugin
+"prec_mark"
+ - Set bookmark to current moment.
+"prec_delete_demo"
+ - Delete previous recorded demo.
+"prec_record"
+ - Record a demo.
+"prec_info"
+ - List of commands.
+"prec_show_stv_status"
+ - Show current sourcetv status.
